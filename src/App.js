@@ -1,9 +1,12 @@
 import './App.css';
+import { Header } from './Components/Header/Header';
+import { Navbarr } from './Components/NavBar/Navbarr';
 
 function App() {
   return (
     <div className="App">
-      <h1>Tache 5 Exo de validation 2</h1>
+      <Navbarr />
+      <Header />
     </div>
   );
 }

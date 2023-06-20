@@ -1,4 +1,157 @@
-.App {
+.navbar {
+  background-color: rgb(1, 34, 51);
+}
+
+
+
+
+.header{
+  background-color: rgb(1, 34, 51);
+}
+.headerRow{
+  padding-top: 250px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.headerRow h1{
+  font-size: 65px;
+}
+
+.btn1{
+  padding: 10px 30px;
+  border: 1px solid rgb(24, 199, 252);
+  background-color: rgb(34, 178, 250) !important;
+  color: aliceblue;
+  font-family: cursive !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  cursor: pointer;
+}
+.btn1::before{
+  content:'';
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(1, 34, 51);
+  /* border-radius: 50% 0 0 50%; */
+  transition: all .6s;
+  z-index: -1;
+}
+.btn1:hover::before{
+  left: 0px;
+  border-radius: 0;
+}
+
+.btn2{
+  border: 1px solid rgb(24, 199, 252) !important;
+  background-color: rgb(1, 34, 51) !important;
+  color: aliceblue !important;
+  font-family: cursive !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  cursor: pointer;
+}
+.btn2::before{
+  content:'';
+  position: absolute;
+  top: 0px;
+  right: 210px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(34, 178, 250);
+  /* border-radius: 50% 0 0 50%; */
+  transition: all .6s;
+  z-index: -1;
+}
+.btn2:hover::before{
+  right: 0px;
+  border-radius: 0;
+}
+.emoj{
+  background-color: rgba(244, 61, 61, 0.255);
+  width: 45px;
+  height: 55px;
+}
+.check{
+  background-color: rgba(7, 125, 9, 0.255);
+  width: 45px;
+  height: 55px;
+}
+.traine{
+  position: relative;
+}
+.traine::before{
+  content: '';
+  background-color: rgb(225, 52, 52);
+  position: absolute;
+  height: 3px;
+  width: 85px;
+  bottom: -25px;
+}
+
+.card3{
+  background-color: rgb(12, 156, 223);
+}
+.folder{
+  background-color: rgb(252, 253, 252);
+  width: 45px;
+  height: 55px;
+  color: rgb(12, 156, 223);
+}
+
+.trainer::before{
+  content: '';
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 3px;
+  width: 85px;
+  bottom: -25px;
+}
+
+@media screen and (max-width: 700px ) {
+  .headerRow{
+    padding-top: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .headerRow h1{
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 900px ) {
+  .headerRow{
+    padding-top: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .headerRow h1{
+    font-size: 45px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +188,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
