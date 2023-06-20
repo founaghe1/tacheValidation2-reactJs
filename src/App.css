@@ -121,9 +121,19 @@
   .headerRow h1{
     font-size: 45px;
   }
+  .gaucheImg{
+    width: 190px;
+    left: -30px !important;
+  }
+  .bas{
+    left: 13px !important;
+  }
+  .txt{
+    width: 100% !important;
+  }
 }
 
-@media screen and (max-width: 900px ) {
+@media screen and (max-width: 821px ) {
   .headerRow{
     padding-top: 150px;
     padding-left: 0px;
@@ -132,8 +142,59 @@
   .headerRow h1{
     font-size: 45px;
   }
+  .enfant::after{
+    content: '';
+    background-color: rgba(202, 3, 3, 0.332);
+    position: absolute;
+    height: 90px;
+    width: 50px;
+    bottom: 2px;
+    right: 8px !important;
+  }
+  .gaucheImg{
+    width: 190px;
+    left: -40px !important;
+  }
 }
 
+/* section1 */
+
+.packageH1{
+  position: relative;
+}
+.packageH1::before{
+  content: '';
+  background-color: rgb(202, 3, 3);
+  position: absolute;
+  height: 5px;
+  width: 85px;
+  bottom: 85px;
+}
+
+.gaucheImg{
+  width: 190px;
+  left: 10px;
+}
+.bas{
+  bottom: -85px;
+}
+
+.enfant::after{
+  content: '';
+  background-color: rgba(202, 3, 3, 0.332);
+  position: absolute;
+  height: 90px;
+  width: 50px;
+  bottom: 2px;
+  right: 80px;
+}
+.txt{
+  width: 700px;
+}
+.sale1{
+  top: 15px;
+  left: 30px;
+}
 
 
 
