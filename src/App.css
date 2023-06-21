@@ -131,6 +131,16 @@
   .txt{
     width: 100% !important;
   }
+  .pTestmo{
+    width: 90% !important;
+  }
+  .inputDiv{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .featured{
+    width: 90% !important;
+  }
 }
 
 @media screen and (max-width: 821px ) {
@@ -154,6 +164,12 @@
   .gaucheImg{
     width: 190px;
     left: -40px !important;
+  }
+  .pTestmo{
+    width: 90% !important;
+  }
+  .inputDiv{
+    width: 100% !important;
   }
 }
 
@@ -194,6 +210,45 @@
 .sale1{
   top: 15px;
   left: 30px;
+}
+
+.heart:hover,
+.shop:hover,
+.eye:hover{
+  transform:scale(1.1);
+  transition: ease-in .6s;
+  background-color: rgb(229, 35, 77) !important;
+  cursor: pointer;
+}
+.heart:hover .heart2,
+.shop:hover .shop2,
+.eye:hover .eye2{
+  color: aliceblue !important;
+}
+.strRite{
+  color: aqua;
+}
+
+/* Testimonial */
+
+.pTestmo{
+  width: 50%;
+}
+
+.lh{
+  line-height: 7px!important ;
+}
+
+/* Section 3 */
+
+.inputDiv{
+  padding-left: 150px ;
+  padding-right: 150px ;
+}
+
+.featured{
+  width: 50%;
+  font-size: large;
 }
 
 
