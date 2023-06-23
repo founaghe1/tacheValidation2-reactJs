@@ -1,4 +1,5 @@
 import './App.css';
+import { Footer } from './Components/Footer/Footer';
 import { Header } from './Components/Header/Header';
 import { Navbarr } from './Components/NavBar/Navbarr';
 import { Section1 } from './Components/Sections/Section1';
@@ -15,6 +16,7 @@ function App() {
       <Section2 />
       <Testmonial />
       <Section3 />
+      <Footer />
     </div>
   );
 }
